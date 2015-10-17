@@ -62,6 +62,7 @@ pip install bokeh
 pip install Flask
 pip install sqlalchemy
 pip install mysql-python
+pip install jupyter
 
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
@@ -90,6 +91,7 @@ pip install Flask
 pip install sqlalchemy
 #pip install mysql-python  # Python 2 only, use mysqlclient instead
 pip install mysqlclient
+pip install jupyter
 
 echo "------------------------------"
 echo "Script completed."

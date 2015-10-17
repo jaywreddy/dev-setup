@@ -146,11 +146,22 @@ brew cask install --appdir="/Applications" heroku-toolbelt
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" chromecast
+brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" openscad
+brew cask install --appdir="/Applications" steam
+brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
+brew cask install --appdir="/Applications" rescuetime
+#brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" spotify
+brew tap popcorn-time/homebrew-cask https://git.popcorntime.io/caskroom/homebrew-cask.git
+brew cask install --appdir="/Applications" popcorn-time
+
+#brew cask install --appdir="/Applications" evernote
 #brew cask install --appdir="/Applications" gimp
 #brew cask install --appdir="/Applications" inkscape
 

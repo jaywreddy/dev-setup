@@ -95,6 +95,14 @@ function runDots() {
             echo ""
             ./android.sh
         fi
+        if [ $ARG == "digifab" ] || [ $ARG == "all" ]; then
+            # Run the digifab.sh Script
+            echo "------------------------------"
+            echo "Setting up Digifab development environment."
+            echo "------------------------------"
+            echo ""
+            ./digifab.sh
+        fi
     done
 
     echo "------------------------------"
